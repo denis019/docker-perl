@@ -9,7 +9,7 @@
     ```
  2. Run docker
      ```
-     cd docker
+     cd docker-perl
      docker-compose up --build -d
      ```
  ### PhpStorm setup
