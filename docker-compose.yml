@@ -1,0 +1,9 @@
+version: '3'
+services:
+  ### perl ##############################################
+  perl:
+    container_name: tutorial_perl
+    build:
+      context: ./perl
+    volumes:
+      - ../:/src
